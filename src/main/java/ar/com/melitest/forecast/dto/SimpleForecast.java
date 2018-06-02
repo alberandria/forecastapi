@@ -4,6 +4,10 @@ public class SimpleForecast {
 	int day;
 	String forecast;
 	
+	public SimpleForecast() {
+		
+	}
+	
 	public SimpleForecast(int day, String forecast) {
 		super();
 		this.day = day;
